@@ -1,0 +1,136 @@
+
+body {
+    font-family: 'work Sans', sans-serif;
+    min-height: 20vh;
+    margin: 0;
+}
+
+
+.logo {
+    width: 148px;
+    height: 88px;
+    padding-left: 40px;
+    margin: 40px 20px;
+    object-fit: fill;
+
+}
+.logo:hover {
+    opacity: 50%;
+}
+
+.icons-head {
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+    
+}
+
+.fa-cart-shopping {
+    color: #03505A;
+    font-size: 13px;
+}
+.fa-house {
+    color: #03505A;
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+.fas, .fa-bars {
+    font-weight: 900;
+    font-size: 30px;
+}
+.navbar {
+    background-color: #ffff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    margin-left: 0;
+    display: none;
+    position: fixed;
+    background: #03505a;
+    z-index: 1000;
+    right: 0px;
+    left: 0px;
+    padding: 1px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+    padding: 20px 30px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+    max-width: 250px;
+}
+
+label {
+    color: #03505a;
+    margin-left: 20px;
+
+}
+
+.back {
+    display: block;
+    background-color: #03505A;
+    color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 200px;
+    border: none;
+}
+
+.back:hover {
+    background-color: #D0E4E5;
+}
+
+/* links */
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #FFFF;
+    padding: 10px;
+}
+
+header a:hover {
+    color: #65A2AA;
+}
+
+.underline {
+    text-decoration: underline #FFFFFF;
+}

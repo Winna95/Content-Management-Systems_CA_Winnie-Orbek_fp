@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Rainy Days contact, here is all the information you need to get in touch with us"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0 " />
+    <title>Rainy Days | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glory:wght@800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script type="module" src="js/contact.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/eea9dd34be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <div class="logo-img">
+          <a href="index.html">
+            <img src="images/RainyDays_Logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+
+        <div class="icons-head">
+          <a href="cart.html">
+            <i class="fa-sharp fa-solid fa-cart-shopping hidden-mobile"></i>
+          </a>
+          <a href="index.html">
+            <i class="fa-solid fa-house hidden-mobile"></i>
+          </a>
+        </div>
+
+        <div>
+          <label id="hamburger-label" for="hamburger-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <input type="checkbox" id="hamburger-menu" />
+          <nav class="contact-nav">
+            <ul>
+              <li class="underline"><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">New arrivals</a></li>
+              <li><a href="products.html">Woman</a></li>
+              <li><a href="products.html">Men</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <button class="back">⟵ Back</button>
+
+      <section class="contact">
+        <div class="contact-info">
+          <h1 class="contact-header">Get in touch</h1>
+          <p>
+            If you need assistance, our own customer service and sales
+            department are always ready to assist.
+          </p>
+          <p>+1 (304) 321 321</p>
+          <p>Rainydays@gmail.com</p>
+          <p>2099, Street 15, Block C</p>
+          <p>Aker Brygge, Oslo</p>
+          <p class="underline">View Job Openings</p>
+        </div>
+
+        <div class="contact-input">
+          <form
+            name="contact-form"
+            action="contact.html"
+            method="post"
+            id="contact-form"
+          >
+            <h1 class="details-header">Enter details</h1>
+
+            <label id="contact-label" for="name">Full name</label>
+            <input type="text" id="name" />
+            <p class="error name-error"></p>
+
+            <label id="contact-label" for="email">Email</label>
+            <input type="text" id="email" />
+            <p class="error email-error"></p>
+
+            <label id="contact-label" for="phone">Phone</label>
+            <input type="text" id="phone" />
+            <p class="error phone-error"></p>
+
+            <label id="contact-label" for="message">Message</label>
+            <textarea id="message" rows="4"></textarea>
+            <p class="error message-error"></p>
+
+            <button type="submit" class="contact-button">Submit</button>
+
+            <p class="success"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

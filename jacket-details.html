@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="View the most popular outdoor jacket - Mountain Hardwear Exposure."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0 " />
+    <title>Rainy Days | Mountain Hardwear Exposure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glory:wght@800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/jacket-details.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script type="module" src="js/jacket-details.js" defer></script>
+    <script type="module" src="js/script.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/eea9dd34be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <div class="logo-img">
+          <a href="index.html">
+            <img src="images/RainyDays_Logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+
+        <div class="icons-head">
+          <a href="cart.html">
+            <i class="fa-sharp fa-solid fa-cart-shopping hidden-mobile"></i>
+          </a>
+          <a href="index.html">
+            <i class="fa-solid fa-house hidden-mobile"></i>
+          </a>
+        </div>
+
+        <div>
+          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+          <input type="checkbox" id="hamburger-menu" />
+          <nav class="contact-nav">
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="products.html">New arrivals</a></li>
+              <li><a href="products.html">Woman</a></li>
+              <li><a href="products.html">Men</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <button class="back">⟵ Back</button>
+    </header>
+    <main>
+      <div id="placeHolderThisJacket"></div>
+      <section class="product-info"></section>
+      <div id="spesific-product-content"></div>
+      <div class="loader"></div>
+      <div class="error-message"></div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

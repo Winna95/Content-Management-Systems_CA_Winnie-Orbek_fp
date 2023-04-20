@@ -1,0 +1,100 @@
+/* Jacket Details Page */
+.product-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.product-one-header {
+    font-weight: 500;
+    margin-top: 150px;
+    font-family: 'work Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.boldtext {
+    font-weight: 700;
+}
+
+.product-one-img {
+    height: 293px;
+    width: 243px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.center {
+    margin: 10px auto;
+}
+
+.center-two {
+    margin: 10px auto;
+}
+
+.center-three {
+    margin: 10px auto;
+}
+
+.product-one-details {
+    margin-bottom: 30px;
+    max-width: 252px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.size-button {
+    background-color: #D0E4E5;
+    margin: 20px auto;
+    color: #02363E;
+    border: none;
+    font-weight: 600;
+    padding: 8px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.addtocart-button {
+    color: #FFFFFF;
+    background-color: #02363E;
+    padding: 8px 50px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.addtocart-button:hover {
+    background-color: #D0E4E5;
+}
+
+.product-info-header {
+    font-family: 'work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.product-info {
+    color: #556666;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: auto;
+    
+}
+
+.loader {
+    border: 20px solid #f1fffe;
+    border-top: 20px solid #4e8476;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 300px;
+}

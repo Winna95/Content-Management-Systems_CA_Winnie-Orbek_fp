@@ -1,0 +1,431 @@
+@media (min-width: 200px) {
+    /* mountain-jacket page */
+    .addtocart-button {
+        max-width: 188px;
+    }
+
+    /* checkout page */
+    .remove-price {
+        margin-left: 100px;
+    }
+    
+
+}
+
+@media (max-width: 400px) {
+    .header {
+        max-height: 200px;     
+}
+
+
+
+}
+
+@media (min-width: 600px) {
+    /* product page */
+    #placeholder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+        margin: auto;
+    }
+
+    .products img {
+        height: 182px;
+        width: 150px;
+    }
+
+    /* cart page */
+    .cart-img {
+        height: 206px;
+        width: 200px;
+    }
+    .cart-details {
+        margin-top: 100px;
+    }
+
+    /* mountain jacket page */
+    .product-one-details {
+        max-width: 400px;
+    }
+
+    /* button */
+
+    .back-home-button {
+        padding: 8px 60px;
+    }
+
+   
+}
+
+@media screen and (max-width: 649px) {
+    .hidden-mobile {
+        visibility: hidden;
+        display: none;
+    }
+    .header {
+        min-height: 400px;
+        width: 100%;
+    }
+
+    .header-one {
+        font-size: 20px;
+    }
+    .header-two {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 84px;
+        height: 50px;
+    }
+    
+}
+
+@media (min-width: 650px) {
+    .back {
+        margin-top: 300px;
+    }
+    /* Home Page */
+    
+    header {
+        justify-content: start;
+    }
+    nav {
+        display: block;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0px;
+    }
+    header label {
+        display: none;
+    }
+
+    .round-img {
+    width: 130px;
+    height: 130px;
+    }
+    .hidden-mobile {
+        max-width: 190px;
+        margin: auto;
+    }
+
+}
+
+
+
+@media (max-width: 800px) {
+    .logo {
+        width: 94px;
+        height: 54px;
+    }
+
+
+    /* Home page */
+    
+    
+}
+
+@media (min-width: 799px) {
+
+    .back {
+        margin-top: 350px;
+    }
+    .categories {
+        margin: auto;
+        justify-content: space-between;
+        width: 750px;
+    }
+    /* About us page */
+    .aboutus-header {
+        font-size: 40px;
+    }
+
+    .about-image {
+        width: 300px;
+        height: 200px;
+        margin-top: 150px;
+        margin-left: auto;
+    }
+    
+    .aboutUs {
+        width: 324px;
+        height: 434px;
+        margin-right: auto;
+        
+    }
+    .aboutus-grid {
+        display: grid;
+        grid-template-columns: 250px 300px;
+        margin-bottom: 200px;
+        margin-top: 50px;
+        align-content: center;
+        justify-content: center;
+        gap: 50px;
+       }
+
+       #placeholder {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 750px;
+    }
+
+       /* cart page */
+       .checkout-button {
+        padding: 8px 80px;
+       }
+       .cart-header {
+        font-size: 20px;
+       }
+
+       .red-text {
+        margin-left: 180px;
+       }
+
+
+
+}
+
+@media (min-width: 1000px) {
+    .back {
+        margin-top: 300px;
+    }
+
+    .categories {
+        width: 950px;
+    }
+    /* Head */
+    .fa-cart-shopping {
+        font-size: 28px;
+    }
+    .fa-house {
+        font-size: 30px;
+    }
+
+    /* Menu */
+        nav li {
+        padding: 0px 30px
+        }
+
+    /* Home Page */
+
+        .header {
+        min-height: 700px;
+        width: 100%;
+        }
+        .header-one {
+            font-size: 70px;
+        } 
+        .header-two {
+            font-size: 40px;
+        } 
+        .round-img {
+            width: 230px;
+            height: 230px;
+        }  
+        .hidden-mobile {
+            max-width: 280px;
+        }
+        
+        
+        /* Contact page */
+
+        .contact-info {
+            width: 400px;
+            height: 400px;
+            margin-left: -20px;
+        }
+        .contact {
+            display: grid;
+            grid-template-columns: 610px 400px;
+            grid-template-rows: 70% 30%;
+            margin-bottom: 200px;
+            margin-top: 50px;
+            align-content: center;
+            justify-content: center;
+            gap: 0;
+
+        }
+        .contact-input {
+            margin-top: 150px;
+            margin-left: -120px;
+            width: 600px;
+            height: 500px;
+        }
+       
+        label, input,textarea {
+            width: 400px;
+            margin-left: 30px;
+        }
+        .submit {
+            margin-left: 170px;
+        }
+        /*About page*/
+        .aboutus-header {
+            margin-top: 50px;
+        }
+        /* Product page */
+        .products img {
+            height: 310px;
+            width: 260px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #placeholder {
+            width: 950px;
+        }
+
+        /* mountain jacket page */
+        .product-one {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .product-one-img {
+            grid-column: 1;
+            grid-row: 1;
+            margin-top: 70px;
+        }
+        .product-one-details {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .center-two {
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 240px;
+        }
+        .center-three {
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 350px;
+        }
+        .product-info-header {
+            text-align: left;
+        }
+        .product-info {
+            margin-top: -300px;
+            max-width: 600px;
+        }
+
+        .size-button {
+            margin-top: 70px;
+        }
+
+        .addtocart-button {
+            display: block;
+            margin-top: 40px;
+        }
+
+
+
+
+    /*checkout page*/
+
+    .checkout {
+        max-width: 970px;
+        margin: 50px auto;
+    }
+    .row1 {
+        display: inline-flex;
+        grid-gap: 200px;
+    }
+    .row2 {
+        display: inline-flex;
+        grid-gap: 200px;
+    }
+    
+    .row3 {
+        display: inline-flex;
+        grid-gap: 220px;
+        margin-top: 80px;
+        font-weight: 700;
+    }
+    
+}
+
+@media (min-width: 1212px) {
+    .back {
+        margin-top: 300px;
+    }
+    /* First page */
+    .categories {
+        width: 1050px;
+    }
+    .newcollection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1100px;
+        margin: 100px auto;
+    }
+    .item1 {
+        text-align: left;
+        max-width: 490px;
+        margin: 0px auto;
+    }
+    .newcollection-images {
+        margin: 20px auto;
+    }
+
+    /*About us page */
+    .aboutus-header {
+        font-size: 40px;
+    }
+
+    .about-image {
+        width: 556px;
+        height: 343px;
+    }
+    
+    .aboutUs {
+        width: 524px;
+        height: 584px;
+        line-height: 35px;
+        font-size: large;
+        
+    }
+    .aboutus-grid {
+        display: grid;
+        grid-template-columns: 550px 600px;
+        margin-bottom: 200px;
+        margin-top: 50px;
+        align-content: center;
+        justify-content: center;
+        gap: 0;
+       }
+
+       /*Product Page*/
+       #placeholder {
+        width: 1100px;
+    }
+}
+
+
+@media (min-width: 1512px) {
+    /* menu */
+    nav li {
+        padding: 0px 40px
+    }
+
+    /* First page */
+    .round-img {
+        width: 312px;
+        height: 312px;
+    }
+    .categories {
+        width: 1250px;
+    }
+    
+    
+    
+    
+
+    
+
+}
