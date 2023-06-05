@@ -13,8 +13,6 @@ const fullProductUrl = apiBase + woocommerceBase + productBase;
 
 const featuredProductUrl = fullProductUrl + featured
 
-console.log(featuredProductUrl);
-
 async function getProducts() {
     const response = await fetch(fullProductUrl);
     

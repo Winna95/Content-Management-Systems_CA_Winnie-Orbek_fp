@@ -7,32 +7,9 @@ import {isEmailValid, displayErrorMessageInHtmlElement,isPhoneNumberValid,
 const totalSum = new URLSearchParams(document.location.search).get("totalSum");
 
 
-/*const thisJacket = getJacketById(jacketId);
-    document.title = thisJacket.productName;
-    const jacketHtml = `
-    <img
-      src="${thisJacket.img}"
-      alt="${thisJacket.productName}"
-      class="checkout-img"
-    />
-  <div class="checkout-details">
-    <p class="mediumbold-text">${thisJacket.productCode}</p>
-    <p class="semibold-text">${thisJacket.productName}</p>
-    <p>Color: ${thisJacket.color}</p>
-    <p>Product type: ${thisJacket.productType}</p>
-    <p>Qty: 1</p>
-    <p>$ ${thisJacket.price}</p>
-    <p class="red-text remove-price mediumbold-text">Remove</p>
-  </div>
-    `
-
-    const checkoutJacketHtml = document.querySelector("#placeHolderJacketCheckout");
-    checkoutJacketHtml.innerHTML = jacketHtml;*/
-
-
     const totalSumElement = document.querySelector("#totalSum");
     totalSumElement.innerText = totalSum;
-    const  subtotalElement = document.querySelector("#subTotal");
+    const subtotalElement = document.querySelector("#subTotal");
     subtotalElement.innerText = totalSum;
 
 document.forms["shipping-form"].onsubmit = function(event) {
