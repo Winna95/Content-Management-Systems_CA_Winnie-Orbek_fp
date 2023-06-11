@@ -1,0 +1,29 @@
+{
+  "name": "Cross course project",
+  "version": "1.0.0",
+  "description": "An online shop for jackets. created in connection with a project at school.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winna95/Content-Management-Systems_CA_Winnie-Orbek_fp.git"
+  },
+  "keywords": [
+    "healthy",
+    "smoothie",
+    "bowls"
+  ],
+  "author": "Winnie Mørk Ørbek",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Winna95/Content-Management-Systems_CA_Winnie-Orbek_fp.git/issues"
+  },
+  "homepage": "https://github.com/Winna95/Content-Management-Systems_CA_Winnie-Orbek_fp.git#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
