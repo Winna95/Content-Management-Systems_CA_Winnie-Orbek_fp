@@ -5,7 +5,7 @@ import {getAllProductsInCart, emptyCart, removeAllProductsFromCart, setQuantityF
 async function fetchProductsInCart() {
     const allProductsFromCart = getAllProductsInCart();
     try {
-        const fullProductUrl = "http://flower-power.local/wp-json/wc/store/products";
+        const fullProductUrl = "https://smoothie-bowl.info/rainydays/wp-json/wc/store/products";
         const response = await fetch(fullProductUrl);
         const results = await response.json();
         return allProductsFromCart.map(cartEntry => {

@@ -1,4 +1,4 @@
-const apiBase = "http://flower-power.local";
+const apiBase = "https://smoothie-bowl.info/rainydays";
 const woocommerceBase = "/wp-json/wc/store";
 const productBase = "/products";
 

@@ -3,7 +3,7 @@ import {addProductToCart} from "./shoppingCart.js";
 const productId = new URLSearchParams(document.location.search).get("productId");
 
 async function fetchProduct() {
-    const productUrl = `http://flower-power.local/wp-json/wc/store/products/${productId}`;
+    const productUrl = `https://smoothie-bowl.info/rainydays/wp-json/wc/store/products/${productId}`;
     try {
         const response = await fetch(productUrl);
         const results = await response.json();
