@@ -45,7 +45,7 @@ npm run start
 prerequisites that are required for this project are webserver to host the website and a web browser to view it.
 
 Links to download the website:
-https://github.com/
+https://github.com/Winna95/Content-Management-Systems_CA_Winnie-Orbek_fp.git
 
 Hosted link:
 
